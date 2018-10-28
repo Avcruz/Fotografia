@@ -1,0 +1,44 @@
+@media only screen and (max-width: 480px) {
+  body{
+    padding: 0px;
+  }
+  #contenido{
+    width: 100%;
+    margin: 0px;
+  }
+  header{
+    display: inline-block;
+    padding-left: 15px;
+  }
+  .titulo {
+    width: 100%;
+    padding: 0px 0px;
+  }
+  .menu {
+    width: 100%;
+    text-align: left;
+    padding-top: 0px;
+  }
+  .Principal img{
+    width: 90%;
+  }
+  .Secundaria{
+    display: inline-block;
+  }
+  .Derecha{
+    width: 87%;
+  }
+  #Galeria img{
+    width: 90%
+  }
+  footer{
+    width: 100%;
+    display: inline-block;
+  }
+  footer div{
+    display: inline-block;
+    float: center;
+    width: 100%;
+    text-align: center;
+  }
+}
