@@ -1,0 +1,39 @@
+section img{
+  text-align: center;
+  box-shadow: 2px 2px #02010a;
+  -moz-box-shadow:2px 2px #02010a;
+  -webkit-box-shadow:2px 2px #02010a;
+}
+.Izquierda{
+  width: 87%;
+}
+.Derecha{
+  width: 75%;
+}
+.Izquierda:hover{
+  transform: rotate(10deg);
+}
+.Derecha:hover{
+  transform: translate(20px, -5px);
+}
+.Izquierda, .Derecha{
+  -moz-box-shadow:2px 2px #82c3a6;
+  -webkit-box-shadow:2px 2px #82c3a6;
+  box-shadow:2px 2px  #82c3a6;
+}
+#Galeria img{
+  margin: 10px;
+  width: 30%;
+}
+.Img1{
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+.Img2, .Img4, .Img6 {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.Img3{
+  -webkit-filter:sepia(90%);
+  filter: sepia(90%);
+}
